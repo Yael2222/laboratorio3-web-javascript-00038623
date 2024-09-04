@@ -1,6 +1,6 @@
 const createCounter = (number) => { //poner las alertas en el contador para mas facilidad
     let counter = 0;
-    for(let i = 0; i < number; i++){
+    for (let i = 0; i < number; i++) {
         counter++;
         alert(counter)
     }
@@ -14,15 +14,15 @@ const showCounter = () => { //no
     }
 }
 
-const requestNumber=()=>{
+const requestNumber = () => {
     const number = prompt("Introduce un numero entero el cual desee contar: ");
     return number;
 }
 
 const main = () => {
-  const number = requestNumber();
+    const number = requestNumber();
 
-  createCounter(number);
+    createCounter(number);
 
 }
 
